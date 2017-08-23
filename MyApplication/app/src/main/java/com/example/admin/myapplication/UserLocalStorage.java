@@ -54,5 +54,6 @@ public class UserLocalStorage {
         SharedPreferences.Editor spEditor = userLocalDatabase.edit();
         spEditor.clear();
         spEditor.commit();
+        //Commit changes
     }
 }
